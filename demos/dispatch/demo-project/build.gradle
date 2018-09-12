@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenLocal()
+}
+
+mainClassName = 'com.haulmont.demo.Main'
+
+applicationName = 'demo'
+
+dependencies {
+    compile('com.haulmont:small-lib:1.0.0')
+}
