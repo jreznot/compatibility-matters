@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.haulmont'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+}
+
+mainClassName = 'com.haulmont.demo.Main'
+
+dependencies {
+    compile('com.haulmont:cool-lib:1.1.0')
+    compile('com.haulmont:cool-addon:1.0.0')
+}

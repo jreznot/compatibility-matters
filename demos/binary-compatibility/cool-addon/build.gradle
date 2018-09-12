@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+group 'com.haulmont'
+version '1.0.0'
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    compile('com.haulmont:cool-lib:1.0.0')
+}

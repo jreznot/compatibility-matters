@@ -1,0 +1,8 @@
+rootProject.name = 'compatibility-demos'
+
+include('demos/serialization/guava-16')
+include('demos/serialization/guava-18')
+
+include('demos/binary-compatibility/cool-lib')
+include('demos/binary-compatibility/cool-addon')
+include('demos/binary-compatibility/demo-project')

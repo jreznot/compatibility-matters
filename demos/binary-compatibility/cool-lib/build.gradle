@@ -1,0 +1,7 @@
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+group 'com.haulmont'
+version '1.1.0'
