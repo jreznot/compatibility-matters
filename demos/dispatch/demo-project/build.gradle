@@ -1,16 +1,19 @@
 plugins {
     id 'java'
+    id 'groovy'
     id 'application'
 }
 
 repositories {
+    mavenCentral()
     mavenLocal()
 }
 
-mainClassName = 'com.haulmont.demo.Main'
+mainClassName = 'com.haulmont.demo.MainGroovy'
 
 applicationName = 'demo'
 
 dependencies {
-    compile('com.haulmont:small-lib:1.0.0')
+    compile('com.haulmont:small-lib:1.1.0')
+    compile('org.codehaus.groovy:groovy:2.5.2')
 }
